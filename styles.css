@@ -294,6 +294,7 @@ h4 {
 
 .about-img {
   max-width: 100%;
+  width: 100%;
   height: auto;
   border-radius: 8px;
   text-align: center;
@@ -301,6 +302,12 @@ h4 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.about-img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .about-section h2 {
@@ -715,7 +722,7 @@ p.p-services {
 
 .cases-img {
   max-width: 100%;
-  width: flex;
+  width: 100%;
   height: auto;
   border-radius: 8px;
   text-align: center;
@@ -723,6 +730,12 @@ p.p-services {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.cases-img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .cases-section h2 {
