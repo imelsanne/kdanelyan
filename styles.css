@@ -1,5 +1,5 @@
 /*
-em - от текущего шоифта
+em - от текущего шрифта
 % - от родительской ширины
 rem - от стиля html
 vw – 1% ширины окна
@@ -1038,14 +1038,19 @@ p.p-business-no-pad {
   padding: 20px 0;
 }
 
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 125px);
+}
+
 .site-footer-short {
   background-color: #333;
   color: #fff;
   text-align: center;
   padding: 20px 0;
-  position: fixed;
-  bottom: 0;
   width: 100%;
+  flex-shrink: 0;
 }
 
 /* Responsive Design */
@@ -1081,6 +1086,18 @@ p.p-business-no-pad {
   .review {
     max-width: 100%;
   }
+
+  .about-grid {
+    flex-direction: column;
+  }
+
+  .about-text {
+    order: 2; /* Text order 2 */
+  }
+
+  .about-img {
+    order: 1; /* Pic order 1 */
+  }
 }
 
 @media (max-width: 1024px) {
@@ -1114,5 +1131,17 @@ p.p-business-no-pad {
 
   .review {
     max-width: 100%;
+  }
+
+    .about-grid {
+    flex-direction: column;
+  }
+
+  .about-text {
+    order: 2; /* Text order 2 */
+  }
+
+  .about-img {
+    order: 1; /* Pic order 1 */
   }
 }
