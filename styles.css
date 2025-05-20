@@ -51,6 +51,15 @@ body {
   margin: 0;
 }
 
+.author-name a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.author-name a:hover {
+  color: #a18cd1;
+}
+
 .menu-links {
   display: flex;
   align-items: center;
