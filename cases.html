@@ -170,14 +170,16 @@
       <div class="button-wrapper">
         <a href="index.html#contact" class="btn-primary">Записаться на консультацию</a>
       </div>
-      <!-- Reversed Arrow -->
-      <div id="reversed-arrow" class="container">
-        <div class="arrow-wrapper"><a href="#"><div class="arrow-img"></div></a>
-        </div>
-      </div>
     </div>
   </section>
 
+  <!-- Arrow up -->
+  <button id="backToTop" aria-label="Наверх">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+  
   <!-- Footer Section -->
   <footer class="site-footer">
     <div class="container">
@@ -204,6 +206,22 @@
         }
       });
     </script>
+    <script>
+      //Arrow up
+      const backToTopButton = document.getElementById('backToTop');
+        
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+          backToTopButton.classList.add('show');
+        } else {
+          backToTopButton.classList.remove('show');
+        }
+      });
+        
+      backToTopButton.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    </script> 
   </footer>
 </body>
 </html>
