@@ -1064,6 +1064,15 @@ p.p-business-no-pad {
   flex-shrink: 0;
 }
 
+.site-footer-short a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-footer-short a:hover {
+  color: #a18cd1;
+}
+
 .site-footer a {
   color: #fff;
   text-decoration: none;
