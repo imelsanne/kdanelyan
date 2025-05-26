@@ -1063,6 +1063,15 @@ p.p-business-no-pad {
   flex-shrink: 0;
 }
 
+.site-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: #a18cd1;
+}
+
 .footer-link {
   display: inline-flex;
   align-items: center;
