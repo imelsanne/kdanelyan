@@ -1148,11 +1148,11 @@ p.p-business-no-pad {
   }
 
     .cases-text {
-    order: 2; /* Text order 2 */
+    order: 1; /* Text order 1 */
   }
 
   .cases-img {
-    order: 1; /* Pic order 1 */
+    order: 2; /* Pic order 2 */
   }
 }
 
@@ -1202,10 +1202,10 @@ p.p-business-no-pad {
   }
 
     .cases-text {
-    order: 2; /* Text order 2 */
+    order: 1; /* Text order 1 */
   }
 
   .cases-img {
-    order: 1; /* Pic order 1 */
+    order: 2; /* Pic order 2 */
   }
 }
