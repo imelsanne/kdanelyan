@@ -1146,6 +1146,14 @@ p.p-business-no-pad {
   .about-img {
     order: 1; /* Pic order 1 */
   }
+
+    .cases-text {
+    order: 2; /* Text order 2 */
+  }
+
+  .cases-img {
+    order: 1; /* Pic order 1 */
+  }
 }
 
 @media (max-width: 1024px) {
@@ -1190,6 +1198,14 @@ p.p-business-no-pad {
   }
 
   .about-img {
+    order: 1; /* Pic order 1 */
+  }
+
+    .cases-text {
+    order: 2; /* Text order 2 */
+  }
+
+  .cases-img {
     order: 1; /* Pic order 1 */
   }
 }
